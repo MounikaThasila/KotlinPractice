@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) GM Global Technology Operations LLC 2021
+  ~ All Rights Reserved.
+  ~ GM Confidential Restricted.
+  -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/edit_text_border_selected_axure_ff" android:state_selected="true" />
+    <item android:drawable="@drawable/edit_text_border_disabled_axure_ff" android:state_enabled="false" />
+    <item android:drawable="@drawable/edit_text_border_axure_ff" />
+</selector>

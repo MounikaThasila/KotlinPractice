@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) GM Global Technology Operations LLC 2021
+  ~ All Rights Reserved.
+  ~ GM Confidential Restricted.
+  -->
+<shape xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:ignore="MissingDefaultResource">
+    <!-- Border Color -->
+    <stroke
+        android:width="2dp"
+        android:color="#000000" />
+    <!-- Round Corners -->
+    <corners android:radius="0dp" />
+</shape>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/constraint_layout"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/driver_seat_massage_highlight"
+        style="@style/style_zero_zero_seat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHeight_percent="0.214"
+        app:layout_constraintWidth_percent="0.051"
+        app:layout_constraintHorizontal_bias="0.71"
+        app:layout_constraintVertical_bias="0.599"
+        tools:ignore="MissingConstraints" />
+
+<!--    <androidx.fragment.app.FragmentContainerView-->
+<!--        android:id="@+id/first_frg"-->
+<!--        android:name="com.example.kotlinpractice.KeyboardFragment"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_weight="1"-->
+<!--        android:background="#FF5722"-->
+<!--        tools:ignore="MissingConstraints" />-->
+
+
+
+<!--    <EditText-->
+<!--        android:id="@+id/hotspot_name_et"-->
+<!--        style="@style/connections_add_wifi_network_edit_text_view_ff"-->
+<!--        android:background="@drawable/edit_text_border_selector_ff"-->
+<!--        android:cursorVisible="true"-->
+<!--        android:focusable="true"-->
+<!--        android:hint="wifiNameEdit_csm"-->
+<!--        android:paddingStart="@dimen/padding_start_connections_add_hotspot_edit_text_ff"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent">-->
+<!--        <requestFocus />-->
+<!--    </EditText>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/connections_add_wifi_network_ssid_name_warning_text"-->
+<!--        style="@style/connections_wifi_name_count_text_ff"-->
+<!--        android:text="charachterCount_F_csm"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/hotspot_name_et"-->
+<!--        style="@style/connections_add_wifi_network_edit_text_view_ff"-->
+<!--        android:background="@drawable/edit_text_border_selector_ff"-->
+<!--        android:cursorVisible="true"-->
+<!--        android:focusable="true"-->
+<!--        android:hint="wifiNameEdit_csm"-->
+<!--        android:maxLength="24"-->
+<!--        android:paddingStart="@dimen/padding_start_connections_add_hotspot_edit_text_ff"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent">-->
+<!--        <requestFocus />-->
+<!--    </EditText>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/connections_add_wifi_network_ssid_name_warning_text"-->
+<!--        style="@style/connections_wifi_name_count_text_ff"-->
+<!--        android:text="charachterCount_F_csm"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+   <!-- <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/back_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/close_button_normal"
+            app:layout_constraintWidth_percent="0.059"
+            app:layout_constraintHeight_percent="0.12"
+            app:layout_constraintVertical_bias="0.0"
+            app:layout_constraintHorizontal_bias="0.012"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        &lt;!&ndash;app:layout_constraintHeight_percent="0.073"&ndash;&gt;
+        <TextView
+            android:id="@+id/remote_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/remote_text"
+            app:layout_constraintWidth_percent="0.764"
+            app:layout_constraintVertical_bias="0.510"
+            app:layout_constraintHorizontal_bias="0.467"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <ImageButton
+            android:id="@+id/close_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/close_button_normal"
+            app:layout_constraintWidth_percent="0.059"
+            app:layout_constraintHeight_percent="0.12"
+            app:layout_constraintVertical_bias="0.0"
+            app:layout_constraintHorizontal_bias="0.971"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="0dp"-->
+<!--        app:layout_constraintWidth_percent="0.647"-->
+<!--        app:layout_constraintHeight_percent="0.123"-->
+<!--        app:layout_constraintVertical_bias="0.198"-->
+<!--        app:layout_constraintHorizontal_bias="0.226"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent">-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/remote_edit_text"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="0dp"-->
+<!--            android:text="@string/remote_edit_text"-->
+<!--            app:layout_constraintWidth_percent="0.958"-->
+<!--            app:layout_constraintHeight_percent="0.593"-->
+<!--            app:layout_constraintVertical_bias="0.5"-->
+<!--            app:layout_constraintHorizontal_bias="0.629"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"/>-->
+<!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/remote_text"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:text="@string/remote_text"-->
+<!--        android:textColor="@color/remote_text_color"-->
+<!--        app:layout_constraintWidth_percent="0.207"-->
+<!--        app:layout_constraintHeight_percent="0.056"-->
+<!--        app:layout_constraintVertical_bias="0.219"-->
+<!--        app:layout_constraintHorizontal_bias="0.955"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"/>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

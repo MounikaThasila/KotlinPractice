@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">KotlinPractice</string>
+    <string name="title_activity_sample">Sample_</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string-array name="cities">
+        <item>Hyderabad</item>
+        <item>Banglore</item>
+        <item>Chennai</item>
+        <item>Mysore</item>
+    </string-array>
+
+    <string name="remote_text">%40% characters left</string>
+    <string name="remote_edit_text">Remote 1</string>
+
+</resources>

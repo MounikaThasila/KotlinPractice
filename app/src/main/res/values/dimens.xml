@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) GM Global Technology Operations LLC 2022.
+  ~ All Rights Reserved.
+  ~ GM Confidential Restricted.
+  -->
+<resources>
+    <dimen name="zero_dp">0dp</dimen>
+    <dimen name="one_dp">1dp</dimen>
+
+
+
+    <dimen name="start_bound_connections_list">-200dp</dimen>
+    <dimen name="bottom_bound_offset_edittext">500dp</dimen>
+
+    <fraction name="height_percent_connections_add_wifi_network_back_btn_ff">0.123</fraction>
+    <fraction name="vertical_bias_connections_add_wifi_network_back_btn_ff">0</fraction>
+    <fraction name="horizontal_bias_connections_add_wifi_network_back_btn_ff">0</fraction>
+    <fraction name="width_percent_connections_add_wifi_network_back_btn_ff">0.041</fraction>
+
+    <fraction name="width_percent_connections_add_wifi_network_set_password_warning_text_ff">0.53</fraction>
+    <fraction name="height_percent_connections_add_wifi_network_set_password_warning_text_ff">0.063</fraction>
+    <fraction name="horizontal_bias_connections_add_wifi_network_set_password_warning_text_ff">0.224</fraction>
+    <fraction name="vertical_bias_connections_add_wifi_network_set_password_warning_text_ff">0.271</fraction>
+
+    <fraction name="width_percent_connections_wifi_name_count_text_ff">0.199</fraction>
+    <fraction name="height_percent_connections_wifi_name_count_text_ff">0.06</fraction>
+    <fraction name="horizontal_bias_connections_wifi_name_count_text_ff">0.810</fraction>
+    <fraction name="vertical_bias_connections_wifi_name_count_text_ff">0.145</fraction>
+
+    <fraction name="width_percent_connections_change_wifi_password_phone_searchbox_ff">0.032</fraction>
+    <fraction name="height_percent_connections_change_wifi_password_phone_searchbox_ff">0.097</fraction>
+    <fraction name="horizontal_bias_connections_change_wifi_password_phone_searchbox_ff">0.113</fraction>
+    <fraction name="vertical_bias_connections_change_wifi_password_phone_searchbox_ff">0.165</fraction>
+
+    <dimen name="padding_start_connections_add_hotspot_edit_text_ff">93dp</dimen>
+
+    <fraction name="height_percent_connections_add_wifi_network_edit_text_ff">0.123</fraction>
+    <fraction name="width_percent_connections_add_wifi_network_edit_text_ff">0.532</fraction>
+    <fraction name="horizontal_bias_connections_add_wifi_network_edit_text_ff">0.226</fraction>
+    <fraction name="vertical_bias_connections_add_wifi_network_edit_text_ff">0.156</fraction>
+
+    <dimen name="text_size_connections_add_wifi_network_edit_text_ff">34sp</dimen>
+    <dimen name="padding_connections_add_wifi_network_edit_text_ff">21dp</dimen>
+    <dimen name="padding_connections_add_hotspot_edit_text_ff">93dp</dimen>
+
+    <dimen name="text_size_connections_add_wifi_network_header_text_ff">29sp</dimen>
+
+    <fraction name="width_percent_connections_add_wifi_network_header_text_ff">0.504</fraction>
+    <fraction name="vertical_bias_connections_add_wifi_network_header_text_ff">0.0906</fraction>
+    <fraction name="horizontal_bias_connections_add_wifi_network_header_text_ff">0.213</fraction>
+</resources>

@@ -1,0 +1,30 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/MounikaThasila/AndroidStudioProjects/KotlinPractice/app/src/main/res/drawable/avd_anim_massage_ani02_04_11.xml" value="0.1" />
+        <entry key="..\:/Users/MounikaThasila/AndroidStudioProjects/KotlinPractice/app/src/main/res/drawable/close_button_normal.xml" value="0.122" />
+        <entry key="..\:/Users/MounikaThasila/AndroidStudioProjects/KotlinPractice/app/src/main/res/drawable/edit_text_border_selector_ff.xml" value="0.122" />
+        <entry key="..\:/Users/MounikaThasila/AndroidStudioProjects/KotlinPractice/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/MounikaThasila/AndroidStudioProjects/KotlinPractice/app/src/main/res/layout/activity_spinner.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/MounikaThasila/AndroidStudioProjects/KotlinPractice/app/src/main/res/layout/alertdialoge.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/MounikaThasila/AndroidStudioProjects/KotlinPractice/app/src/main/res/layout/explicitintent.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/MounikaThasila/AndroidStudioProjects/KotlinPractice/app/src/main/res/layout/fragment_keyboard.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/MounikaThasila/AndroidStudioProjects/KotlinPractice/app/src/main/res/layout/fragment_second.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/MounikaThasila/AndroidStudioProjects/KotlinPractice/app/src/main/res/layout/imageloginglibraries.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/MounikaThasila/AndroidStudioProjects/KotlinPractice/app/src/main/res/layout/implicitintent.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/MounikaThasila/AndroidStudioProjects/KotlinPractice/app/src/main/res/layout/open_camera_display_image.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/MounikaThasila/AndroidStudioProjects/KotlinPractice/app/src/main/res/layout/open_dial_intent.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/MounikaThasila/AndroidStudioProjects/KotlinPractice/app/src/main/res/layout/scrollview_example.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/MounikaThasila/AppData/Local/Android/Sdk/platforms/android-32/data/res/layout/simple_spinner_dropdown_item.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/MounikaThasila/AppData/Local/Android/Sdk/platforms/android-32/data/res/layout/simple_spinner_item.xml" value="0.14130434782608695" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
